@@ -10,4 +10,5 @@ public interface BuyerRepository {
     Buyer findById(int id);
     List<Buyer> findAll();
     void delete(Buyer buyer);
+    void deleteAll();
 }

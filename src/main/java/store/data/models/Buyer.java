@@ -1,9 +1,12 @@
 package store.data.models;
 
 import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
 import java.util.Set;
 import java.util.TreeSet;
+
 
 @Data
 public class Buyer extends User{
